@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?language javascript?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" opacity="1.0" prefHeight="400.0" prefWidth="400.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="sample.Controller">
+  <children>
+    <Button layoutX="306.0" layoutY="330.0" mnemonicParsing="false" onAction="#clear" text="Clear">
+      <effect>
+        <Reflection />
+      </effect>
+    </Button>
+    <Button layoutX="36.0" layoutY="330.0" mnemonicParsing="false" onAction="#result" prefWidth="66.99990000000253" text="Result">
+      <effect>
+        <Reflection />
+      </effect>
+    </Button>
+    <TextField id="range" fx:id="x1" layoutX="55.0" layoutY="60.0" prefHeight="26.0" prefWidth="58.0" promptText="" text="-2" />
+    <TextField id="range" fx:id="y1" layoutX="55.0" layoutY="86.0" prefHeight="26.0" prefWidth="58.0" promptText="" text="2" />
+    <TextField id="range" fx:id="x3" layoutX="74.0" layoutY="166.0" prefHeight="26.0" prefWidth="58.0" promptText="" text="-2" />
+    <TextField id="range" fx:id="y3" layoutX="74.0" layoutY="192.0" prefHeight="26.0" prefWidth="58.0" promptText="" text="-2" />
+    <TextField id="range" fx:id="x2" layoutX="210.0" layoutY="60.0" prefHeight="26.0" prefWidth="58.0" promptText="" text="2" />
+    <TextField id="range" fx:id="y2" layoutX="210.0" layoutY="86.0" prefHeight="26.0" prefWidth="58.0" promptText="" text="2" />
+    <TextField id="range" fx:id="x4" layoutX="210.0" layoutY="161.0" prefHeight="26.0" prefWidth="58.0" promptText="" text="2" />
+    <TextField id="range" fx:id="y4" layoutX="210.0" layoutY="187.0" prefHeight="26.0001220703125" prefWidth="58.0" promptText="" text="-2" />
+    <Line endX="-24.0" endY="143.0" layoutX="194.0" layoutY="125.0" startX="-22.0" startY="-99.0" />
+    <Line endX="162.0" endY="-32.0" layoutX="188.0" layoutY="165.0" startX="-149.0" startY="-31.0" />
+    <Label layoutX="346.0" layoutY="143.0" text="X">
+      <font>
+        <Font name="Bookman Old Style" size="20.0" fx:id="x1_x0" />
+      </font>
+    </Label>
+    <Label font="$x1_x0" layoutX="146.0" layoutY="24.0" prefHeight="25.000091552734375" text="Y" />
+    <TextField id="range" fx:id="rectangleArea" layoutX="142.0" layoutY="331.0" prefHeight="26.0" prefWidth="117.0" promptText="Rectangle Area" />
+    <TextField id="range" fx:id="shapeArea" layoutX="142.0" layoutY="304.0" prefHeight="26.0" prefWidth="117.0" promptText="Shape Area" />
+  </children>
+</AnchorPane>
